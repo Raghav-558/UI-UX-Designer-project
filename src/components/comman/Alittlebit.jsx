@@ -1,7 +1,7 @@
 import React from 'react'
 import Image1 from '../assets/images/little-bit-about-me-img.webp'
 
-const Sectionthird = () => {
+const Alittlebit = () => {
     return (
         <div className='bg-black'>
             <div className='max-w-[1140px] mx-auto px-3 '>
@@ -24,4 +24,4 @@ const Sectionthird = () => {
     )
 }
 
-export default Sectionthird
+export default Alittlebit

@@ -3,7 +3,7 @@ import Cards from './components/comman/Cards';
 import Footer from './components/comman/Footer';
 import Form from './components/comman/Form';
 import Herosection from './components/comman/Herosection';
-import Sectionthird from './components/comman/Sectionthird';
+import Alittlebit from './components/comman/Alittlebit';
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
       <div>
         <Herosection />
         <Cards />
-        <Sectionthird />
         <Form />
-        <Footer/>
+        <Alittlebit />
+        <Footer />
       </div>
     </>
   );
