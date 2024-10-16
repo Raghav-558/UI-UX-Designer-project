@@ -7,7 +7,7 @@ const Herosection = () => {
     return (
         <div className='flex items-center flex-col'>
             <div className='border-b border-black border-opacity-15 w-full'>
-                <nav className='max-w-[1140px] px-3 mx-auto flex items-center gap-4 py-6  w-full justify-between'>
+                <nav className='max-w-[1140px] px-3 mx-auto flex items-center gap-4 py-6 w-full justify-between'>
                     <div><h2 className='worksans font-[800] text-fs-lg pr-5 whitespace-nowrap'><a href="#">UIUX Designer</a></h2></div>
                     <div className='flex items-center justify-between w-full max-lg:hidden'>
                         <ul className='flex items-center gap-7'>
@@ -58,7 +58,7 @@ const Herosection = () => {
                         <li className='worksans font-semibold text-xl text-white'><a href="#" class="relative w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" >Testimonials</a></li>
                         <li className='worksans font-semibold text-xl text-white'><a href="#" class="relative w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" >About</a></li>
                     </ul>
-                    <ul className='flex items-center gap-6 '>
+                    <ul className='flex items-center gap-6'>
                         <li className='hover:scale-[1.2] transition-all duration-300'><a href="https://www.fifa.com/en" target='_blank'>
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M13.9466 12.4C14.2666 12.2933 14.5733 12.1733 14.88 12.0533C13.7466 9.89333 12.4666 7.81333 11.04 5.82666C7.99996 7.31999 5.71996 10.12 4.95996 13.48C7.99996 13.72 11.0799 13.3733 13.9466 12.4Z" fill="#4D5566" />
@@ -92,7 +92,7 @@ const Herosection = () => {
                             <div className='w-[179px] h-[60px] max-sm:w-[150px] bg-black text-white rounded-[10px] text-2xl worksans max-md:text-xl max-sm:text-base flex items-center justify-center pr-2 cursor-pointer'>
                                 <h2>👋 Hello All</h2>
                             </div>
-                            <h2 className='text-[60px] text-customBlack font-semibold eczar pt-6 leading-[75px] max-lg:text-fs-3xl max-md:text-5xl max-sm:text-fs-2xl'>
+                            <h2 className='text-[58px] text-customBlack font-semibold eczar pt-6 leading-[75px] max-lg:text-fs-3xl max-md:text-5xl max-sm:text-fs-2xl'>
                                 I’m Chiranjit H,
                                 A UI/UX Designer
                                 and Developer
