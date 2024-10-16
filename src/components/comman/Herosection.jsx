@@ -12,7 +12,7 @@ const Herosection = () => {
                     <div className='w-full lg:w-6/12 px-3'>
                         <div>
                             <button className='px-6 py-3 bg-black text-white rounded-[10px] text-2xl worksans max-md:text-xl max-sm:text-base'>👋 Hello All</button>
-                            <h2 className='text-fs-4xl text-customBlack font-semibold eczar pt-6 leading-[80px] max-lg:text-fs-3xl max-md:text-5xl'>
+                            <h2 className='text-fs-4xl text-customBlack font-semibold eczar pt-6 leading-[80px] max-lg:text-fs-3xl max-md:text-5xl max-sm:text-fs-2xl'>
                                 I’m Chiranjit H,
                                 A UI/UX Designer
                                 and Developer

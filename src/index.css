@@ -12,10 +12,6 @@
     font-family: "Work Sans", sans-serif;
 }
 
-.rad-30 {
-    border-radius: 30px;
-}
-
 input::placeholder {
     color: black;
 }
