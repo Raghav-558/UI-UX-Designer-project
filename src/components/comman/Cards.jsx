@@ -41,7 +41,7 @@ const Cards = () => {
               <a href="#"> <div className='bg-white rounded-xl p-2 hover:scale-[1.02] transition-all duration-300 mb-5'>
                 <img src={obj.img} alt="sheepify" className='rounded-xl w-full' />
                 <div className='p-3'>
-                  <h3 className='worksans font-semibold text-3xl'>{obj.title}</h3>
+                  <h3 className='worksans font-semibold text-2xl'>{obj.title}</h3>
                   <p className='pt-2 font-medium text-xl worksans'>{obj.para}</p>
                 </div>
               </div>

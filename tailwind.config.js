@@ -9,6 +9,7 @@ module.exports = {
         'fs-lg': '28px',
         'fs-xl': '32px',
         'fs-2xl': '40px',
+        'fs-3xl': '52px',
         'fs-4xl': '64px',
       },
       colors: {
