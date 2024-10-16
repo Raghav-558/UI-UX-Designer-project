@@ -8,22 +8,14 @@ const Cards = () => {
     {
       img: Image1,
       title: "Sheepify States",
-      para: "Live View",
     },
     {
       img: Image2,
       title: "Interiors Design",
-      para: "Live View",
     },
     {
       img: Image3,
       title: "IOS UI/UX Design",
-      para: "Live View",
-    },
-    {
-      img: Image1,
-      title: "Sheepify States",
-      para: "Live View",
     },
   ];
   return (
@@ -37,12 +29,11 @@ const Cards = () => {
         </div>
         <div className='flex flex-wrap flex-row -mx-3 pb-30 pt-14 max-sm:pt-6'>
           {CARDS.map((obj) => (
-            <div className='w-full sm:w-1/2  md:w-1/3 lg:w-1/4 px-3'>
+            <div className='w-full md:w-1/2 lg:w-1/3 px-3'>
               <a href="#"> <div className='bg-white rounded-xl p-2 hover:scale-[1.02] transition-all duration-300 mb-5'>
                 <img src={obj.img} alt="sheepify" className='rounded-xl w-full' />
                 <div className='p-3'>
                   <h3 className='worksans font-semibold text-2xl max-sm:text-xl'>{obj.title}</h3>
-                  <p className='pt-2 font-medium text-xl worksans max-sm:text-base'>{obj.para}</p>
                 </div>
               </div>
               </a>
