@@ -4,7 +4,7 @@ import Image1 from '../assets/images/little-bit-about-me-img.webp'
 const Alittlebit = () => {
     return (
         <div className='bg-black'>
-            <div className='max-w-[1140px] mx-auto px-3 '>
+            <div className='max-w-[1140px] mx-auto px-3'>
                 <div className='flex flex-wrap flex-row -mx-3 items-center'>
                     <div className='w-full lg:w-1/2 px-3'>
                         <div className='max-lg:pt-10'>

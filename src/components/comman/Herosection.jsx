@@ -42,10 +42,10 @@ const Herosection = () => {
                     </ul>
                 </div>
                 <div
-                    className="lg:hidden relative right-3 text-red-900 z-30 text-3xl font-bold "
+                    className="lg:hidden relative right-3 z-30 text-4xl font-bold transition-all duration-300"
                     onClick={() => setIsOpen(!isOpen)}
                 >
-                    {isOpen ? "✕" : "☰"}
+                    {isOpen ? "❌" : "☰"}
                 </div>
             </nav>
             <div className={`w-full h-full bg-black z-20 transition-all lg:-top-full flex justify-center items-center duration-300 fixed ${isOpen ? "top-0" :"-top-full"}`}>
@@ -83,7 +83,7 @@ const Herosection = () => {
                     </ul>
                 </div>
             </div>
-            <div className='container max-w-[1140px] px-3 mx-auto mt-12 max-sm:mt-5 max-lg:mb-20 max-md:mb-10 mb-28'>
+            <div className='container max-w-[1140px] px-4 mx-auto mt-12 max-sm:mt-5 max-lg:mb-20 max-md:mb-10 mb-28'>
                 <div className='flex flex-wrap flex-row -mx-3 justify-between items-center'>
                     <div className='w-full lg:w-6/12 px-3'>
                         <div>

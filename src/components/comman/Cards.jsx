@@ -30,7 +30,7 @@ const Cards = () => {
         <div className='flex flex-wrap flex-row -mx-3 pb-30 pt-14 max-sm:pt-6'>
           {CARDS.map((obj) => (
             <div className='w-full md:w-1/2 lg:w-1/3 px-3'>
-              <a href="#"> <div className='bg-white rounded-xl p-2 hover:scale-[1.02] transition-all duration-300 mb-5'>
+              <a href="#"> <div className='bg-white rounded-xl p-2 hover:scale-[1.02] transition-all duration-300 mb-6'>
                 <img src={obj.img} alt="sheepify" className='rounded-xl w-full' />
                 <div className='p-3'>
                   <h3 className='worksans font-semibold text-2xl max-sm:text-xl'>{obj.title}</h3>
