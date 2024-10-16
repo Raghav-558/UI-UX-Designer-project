@@ -16,7 +16,7 @@ const Form = () => {
                             <input type="email" id='email' className='py-7 text-black bg-opacity-30 worksans rad-30 font-semibold text-xl max-sm:text-base worksans pl-7 max-sm:pl-6 bg-customcream w-[65%] outline-none' placeholder='Email' />
                         </div>
                         <textarea name="message" id="message" placeholder='Your message' className=' font-semibold text-xl max-sm:text-base worksans w-full h-[211px] max-sm:pl-6 text-black bg-opacity-30 rad-30 pt-7 pl-7 bg-customcream outline-none mt-4' ></textarea>
-                        <button type='submit' class="max-sm:text-base worksans mt-10 max-sm:mt-5 font-semibold text-xl rounded-md before:ease relative py-4 px-10 overflow-hidden border-4 border-black text-black transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-black before:duration-300 hover:text-white hover:before:h-64 hover:before:-translate-y-32">
+                        <button type='submit' class="max-sm:text-base worksans mt-10 max-sm:mt-5 font-semibold text-xl rounded-md before:ease relative py-4 px-10 max-sm:px-6 max-sm:py-3 overflow-hidden border-4 border-black text-black transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-black before:duration-300 hover:text-white hover:before:h-64 hover:before:-translate-y-32">
                             <span class="relative z-10">Send Message</span>
                         </button>
                     </form>
