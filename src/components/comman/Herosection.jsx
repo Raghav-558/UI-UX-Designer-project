@@ -87,7 +87,7 @@ const Herosection = () => {
                 <div className='flex flex-wrap flex-row -mx-3 justify-between items-center'>
                     <div className='w-full lg:w-6/12 px-3'>
                         <div>
-                            <div className='w-[179px] h-[60px] bg-black text-white rounded-[10px] text-2xl worksans max-md:text-xl max-sm:text-base flex items-center justify-center pr-2 cursor-pointer'>
+                            <div className='w-[179px] h-[60px] max-sm:w-[150px] bg-black text-white rounded-[10px] text-2xl worksans max-md:text-xl max-sm:text-base flex items-center justify-center pr-2 cursor-pointer'>
                                 <h2>👋 Hello All</h2>
                             </div>
                             <h2 className='text-[60px] text-customBlack font-semibold eczar pt-6 leading-[75px] max-lg:text-fs-3xl max-md:text-5xl max-sm:text-fs-2xl'>

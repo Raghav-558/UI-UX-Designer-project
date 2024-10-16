@@ -15,8 +15,10 @@ const Alittlebit = () => {
                             </button>
                         </div>
                     </div>
-                    <div className='w-full lg:w-1/2 px-3 max-lg:pt-8'>
-                        <img src={Image1} alt="" className=' object-cover' />
+                    <div className='w-full lg:w-1/2 px-3 max-lg:pt-10'>
+                        <div className='max-lg:flex max-lg:justify-center'>
+                            <img src={Image1} alt="" className=' object-cover max-lg:w-[500px]' />
+                        </div>
                     </div>
                 </div>
             </div>
