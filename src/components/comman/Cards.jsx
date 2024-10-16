@@ -28,7 +28,7 @@ const Cards = () => {
   ];
   return (
     <div className=' bg-black'>
-      <div className='max-w-[1140px] mx-auto px-3 pt-16 max-md:pt-10 pb-16'>
+      <div className='max-w-[1140px] mx-auto px-3 pt-16 max-md:pt-10 pb-16 max-md:pb-10'>
         <div className='text-left flex items-center gap-16 max-md:flex-col max-md:gap-3'>
           <h2 className='eczar font-semibold text-fs-2xl max-md:text-2xl text-white'>Featured Work</h2>
           <button class="worksans font-semibold text-xl max-md:text-base rounded-md before:ease relative py-4 px-6 overflow-hidden border-4 border-white text-white transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-26 before:rotate-45 before:bg-white before:duration-300 hover:text-black hover:before:h-64 hover:before:-translate-y-32">
