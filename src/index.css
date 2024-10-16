@@ -12,14 +12,6 @@
     font-family: "Work Sans", sans-serif;
 }
 
-.mb-124 {
-    margin-bottom: 124px;
-}
-
-.pt-72 {
-    padding-top: 72px;
-}
-
 .rad-30 {
     border-radius: 30px;
 }
@@ -30,8 +22,4 @@ input::placeholder {
 
 textarea::placeholder {
     color: black;
-}
-
-.btn-1-pd {
-    padding: 15px 24.5px;
 }
