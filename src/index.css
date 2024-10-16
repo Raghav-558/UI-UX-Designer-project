@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.eczar {
+    font-family: "Eczar", serif;
+}
+
+.worksans {
+    font-family: "Work Sans", sans-serif;
+}
+
+.mb-124 {
+    margin-bottom: 124px;
+}
+
+.pt-72 {
+    padding-top: 72px;
+}
+
+.rad-30 {
+    border-radius: 30px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+textarea::placeholder {
+    color: black;
+}
+
+.btn-1-pd {
+    padding: 15px 24.5px;
+}

@@ -1,4 +1,4 @@
-import './App.css';
+
 import Cards from './components/comman/Cards';
 import Footer from './components/comman/Footer';
 import Form from './components/comman/Form';

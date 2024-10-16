@@ -20,6 +20,10 @@ module.exports = {
         customGray: '#594F43',
         customcream: '#C4C4C4',
       },
+      fontFamily: {
+        eczar: ['Eczar', 'serif'],
+        worksans: ['Work Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [],
