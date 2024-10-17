@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 .eczar {
     font-family: "Eczar", serif;
 }
