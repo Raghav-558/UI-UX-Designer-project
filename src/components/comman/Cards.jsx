@@ -67,9 +67,9 @@ const Cards = () => {
           {CARDS.slice(0, show).map((obj, index) => (
             <div key={index} className='w-full md:w-1/2 lg:w-1/3 px-3'>
               <a href="#">
-                <div className='bg-white rounded-md p-2.5 transition-all duration-300 mb-6 hover:scale-[1.01] '>
+                <div className='bg-white rounded-md p-2.5 mb-6 group'>
                   <div className=''>
-                    <img src={obj.img} alt={obj.title} className='rounded-md w-full' />
+                    <img src={obj.img} alt={obj.title} className='rounded-sm transition-all duration-300 group-hover:scale-[1.02] w-full ' />
                     <div className='p-3'>
                       <h3 className='worksans font-semibold text-2xl max-sm:text-xl'>{obj.title}</h3>
                     </div>
