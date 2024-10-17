@@ -7,8 +7,8 @@ const Herosection = () => {
     return (
         <div className='flex items-center flex-col'>
             <div className='border-b border-black border-opacity-15 w-full'>
-                <nav className='max-w-[1140px] px-3 mx-auto flex items-center gap-4 py-6 w-full justify-between'>
-                    <div><h2 className='worksans font-[800] text-fs-lg pr-5 whitespace-nowrap'><a href="#">UIUX Designer</a></h2></div>
+                <nav className='max-w-[1140px] px-3 mx-auto flex items-center gap-4 py-6 w-full justify-between max-lg:pl-5'>
+                    <div><h2 className='worksans font-[800] text-fs-lg pr-5 whitespace-nowrap max-sm:text-2xl'><a href="#">UIUX Designer</a></h2></div>
                     <div className='flex items-center justify-between w-full max-lg:hidden'>
                         <ul className='flex items-center gap-7'>
                             <li className='worksans font-semibold text-xl'><a href="#" className="relative w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" >Home</a></li>
@@ -43,7 +43,7 @@ const Herosection = () => {
                         </ul>
                     </div>
                     <div
-                        className="lg:hidden relative right-3 z-30 text-4xl font-bold transition-all duration-300"
+                        className="lg:hidden relative right-3 z-30 text-4xl font-bold transition-all duration-300 max-sm:text-3xl"
                         onClick={() => setIsOpen(!isOpen)}
                     >
                         {isOpen ? "❌" : "☰"}
@@ -85,27 +85,27 @@ const Herosection = () => {
                     </ul>
                 </div>
             </div>
-            <div className='container max-w-[1140px] px-3 mx-auto mt-12 max-sm:mt-5 max-lg:mb-20 max-md:mb-10 mb-28'>
+            <div className='container max-w-[1140px] px-3 mx-auto mt-12 max-sm:mt-5 max-lg:mb-20 max-md:mb-10 mb-28 max-lg:px-4'>
                 <div className='flex flex-wrap flex-row -mx-3 justify-between items-center'>
                     <div className='w-full lg:w-6/12 px-3'>
                         <div>
                             <div className='w-[179px] h-[60px] max-sm:w-[150px] bg-black text-white rounded-[10px] text-2xl worksans max-md:text-xl max-sm:text-base flex items-center justify-center pr-2 cursor-pointer'>
                                 <h2>👋 Hello All</h2>
                             </div>
-                            <h2 className='text-[58px] text-customBlack font-semibold eczar pt-6 leading-[75px] max-lg:text-fs-3xl max-md:text-5xl max-sm:text-fs-2xl'>
+                            <h2 className='text-[50px] text-customBlack font-semibold eczar pt-6 leading-[75px] max-lg:text-fs-3xl max-md:text-5xl max-sm:text-fs-2xl max-lg:leading-[55px]'>
                                 I’m Chiranjit H,
                                 A UI/UX Designer
                                 and Developer
                             </h2>
-                            <div className='flex mt-8 max-sm:mt-5 items-center gap-4 worksans '>
+                            <div className='flex mt-7 max-sm:mt-5 items-center gap-4 worksans '>
                                 <button className="max-[400px]:text-[14px] max-[400px]:px-1 max-[400px]:py-1  group max-sm:text-base worksans font-semibold text-xl rounded-md relative py-4 px-6 max-sm:px-2 max-sm:py-3 overflow-hidden border-4 border-black text-white bg-black transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-white before:duration-500 hover:text-black hover:before:h-64 hover:before:-translate-y-32">
                                     <span className="relative z-10 flex items-center gap-3">View My Work
                                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path className="transition-all duration-200 group-hover:fill-black" fill-rule="evenodd" clip-rule="evenodd" d="M10.7929 15.7071C10.4024 15.3166 10.4024 14.6834 10.7929 14.2929L13.0858 12L10.7929 9.70711C10.4024 9.31658 10.4024 8.68342 10.7929 8.29289C11.1834 7.90237 11.8166 7.90237 12.2071 8.29289L14.9229 11.0087C15.4704 11.5562 15.4704 12.4438 14.9229 12.9913L12.2071 15.7071C11.8166 16.0976 11.1834 16.0976 10.7929 15.7071ZM7.75007 2.38782C9.04878 2.0992 10.6243 2 12.5 2C14.3757 2 15.9512 2.0992 17.2499 2.38782C18.56 2.67897 19.6488 3.176 20.4864 4.01358C21.324 4.85116 21.821 5.94002 22.1122 7.25007C22.4008 8.54878 22.5 10.1243 22.5 12C22.5 13.8757 22.4008 15.4512 22.1122 16.7499C21.821 18.06 21.324 19.1488 20.4864 19.9864C19.6488 20.824 18.56 21.321 17.2499 21.6122C15.9512 21.9008 14.3757 22 12.5 22C10.6243 22 9.04878 21.9008 7.75007 21.6122C6.44002 21.321 5.35116 20.824 4.51358 19.9864C3.676 19.1488 3.17897 18.06 2.88782 16.7499C2.5992 15.4512 2.5 13.8757 2.5 12C2.5 10.1243 2.5992 8.54878 2.88782 7.25007C3.17897 5.94002 3.676 4.85116 4.51358 4.01358C5.35116 3.176 6.44002 2.67897 7.75007 2.38782Z" fill="#F3F2FF" />
+                                            <path className="transition-all duration-200 group-hover:fill-black" fillRule="evenodd" clipRule="evenodd" d="M10.7929 15.7071C10.4024 15.3166 10.4024 14.6834 10.7929 14.2929L13.0858 12L10.7929 9.70711C10.4024 9.31658 10.4024 8.68342 10.7929 8.29289C11.1834 7.90237 11.8166 7.90237 12.2071 8.29289L14.9229 11.0087C15.4704 11.5562 15.4704 12.4438 14.9229 12.9913L12.2071 15.7071C11.8166 16.0976 11.1834 16.0976 10.7929 15.7071ZM7.75007 2.38782C9.04878 2.0992 10.6243 2 12.5 2C14.3757 2 15.9512 2.0992 17.2499 2.38782C18.56 2.67897 19.6488 3.176 20.4864 4.01358C21.324 4.85116 21.821 5.94002 22.1122 7.25007C22.4008 8.54878 22.5 10.1243 22.5 12C22.5 13.8757 22.4008 15.4512 22.1122 16.7499C21.821 18.06 21.324 19.1488 20.4864 19.9864C19.6488 20.824 18.56 21.321 17.2499 21.6122C15.9512 21.9008 14.3757 22 12.5 22C10.6243 22 9.04878 21.9008 7.75007 21.6122C6.44002 21.321 5.35116 20.824 4.51358 19.9864C3.676 19.1488 3.17897 18.06 2.88782 16.7499C2.5992 15.4512 2.5 13.8757 2.5 12C2.5 10.1243 2.5992 8.54878 2.88782 7.25007C3.17897 5.94002 3.676 4.85116 4.51358 4.01358C5.35116 3.176 6.44002 2.67897 7.75007 2.38782Z" fill="#F3F2FF" />
                                         </svg>
                                     </span>
                                 </button>
-                                <button className="max-[400px]:text-[14px] max-[400px]:px-5 max-[400px]:py-1  max-sm:text-base worksans font-semibold text-xl rounded-md before:ease relative py-4 px-14 max-sm:px-9 max-sm:py-3 overflow-hidden border-4 border-black text-black transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-black before:duration-500 hover:text-white hover:before:h-64 hover:before:-translate-y-32">
+                                <button className="max-[400px]:text-[14px] max-[400px]:px-5 max-[400px]:py-1 max-sm:text-base worksans font-semibold text-xl rounded-md before:ease relative py-4 px-14 max-sm:px-9 max-sm:py-3 overflow-hidden border-4 border-black text-black transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-black before:duration-500 hover:text-white hover:before:h-64 hover:before:-translate-y-32">
                                     <span className="relative z-10">Contact Me</span>
                                 </button>
                             </div>
