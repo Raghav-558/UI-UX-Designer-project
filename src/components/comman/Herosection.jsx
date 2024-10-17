@@ -66,7 +66,6 @@ const Herosection = () => {
                 </nav>
             </div>
             <div className={`w-full h-full insert-0 bg-black z-20 transition-all lg:-top-full flex justify-center items-center duration-300 fixed overflow-hidden ${isOpen ? "top-0" : "-top-full"}`}>
-
                 <div className='flex items-center flex-col gap-7'>
                     <ul className='flex items-center gap-7  flex-col'>
                         <li onClick={() => setIsOpen(false)} className='worksans font-semibold text-xl text-white'><a href="#home" className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" >Home</a></li>
@@ -101,7 +100,6 @@ const Herosection = () => {
                     </ul>
                 </div>
             </div>
-
             <div id='home' className='container max-w-[1140px] px-5 mx-auto mt-12 max-sm:mt-5 max-lg:mb-20 max-md:mb-10 mb-28'>
                 <div className='flex flex-wrap flex-row -mx-3 justify-between items-center'>
                     <div className='w-full lg:w-6/12 px-3'>
