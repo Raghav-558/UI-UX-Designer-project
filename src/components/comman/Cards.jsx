@@ -48,7 +48,6 @@ const Cards = () => {
       setShow(show + 3);
     }
   }
-
   const lessCards = () => {
     if (show > 3) {
       setShow(show - 3)
@@ -57,7 +56,7 @@ const Cards = () => {
 
   return (
     <div className='bg-black'>
-      <div className='max-w-[1140px] mx-auto px-3 pt-16 max-md:pt-10 pb-16 max-md:pb-10 max-lg:px-4'>
+      <div className='max-w-[1140px] mx-auto px-4 pt-16 max-md:pt-10 pb-16 max-md:pb-10 max-lg:px-4'>
         <div className='text-left flex items-center gap-16 max-sm:flex-col max-sm:gap-3'>
           <h2 className='eczar font-semibold text-fs-2xl max-md:text-3xl text-white'>Featured Work</h2>
           <button className="worksans font-semibold text-xl max-md:text-base max-sm:px-4 max-sm:py-3 rounded-md max-sm:rounded-sm before:ease relative py-4 px-6 overflow-hidden border-4 border-white text-white transition-all duration-500 before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-26 before:rotate-45 before:bg-white before:duration-500 hover:text-black hover:before:h-64 hover:before:-translate-y-32">
@@ -79,11 +78,11 @@ const Cards = () => {
           ))}
         </div>
         <div className='flex justify-center items-center'>
-          <button onClick={addCards} className="worksans mt-12 max-sm:mt-5 max-lg:mt-8 font-semibold text-xl max-sm:text-base rounded-md before:ease relative py-3 px-7 max-sm:px-6 max-sm:py-3 overflow-hidden border-4 border-white text-white transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-white before:duration-500 hover:text-black hover:before:h-64 hover:before:-translate-y-32">
+          <button onClick={addCards} className="worksans mt-12 max-sm:mt-5 max-lg:mt-8 font-semibold text-xl max-sm:text-base rounded-md before:ease relative py-3 px-7 max-sm:px-4 max-sm:py-3 overflow-hidden border-4 border-white text-white transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-white before:duration-500 hover:text-black hover:before:h-64 hover:before:-translate-y-32">
             <span className="relative z-10">Show more...</span>
           </button>
           {show > 3 && (
-            <button onClick={lessCards} className="worksans mt-12 ml-4 max-sm:mt-5 max-lg:mt-8 font-semibold text-xl max-sm:text-base rounded-md before:ease relative py-3 px-7 max-sm:px-6 max-sm:py-3 overflow-hidden border-4 border-white text-white transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-white before:duration-500 hover:text-black hover:before:h-64 hover:before:-translate-y-32">
+            <button onClick={lessCards} className="worksans mt-12 ml-4 max-sm:mt-5 max-lg:mt-8 font-semibold text-xl max-sm:text-base rounded-md before:ease relative py-3 px-7 max-sm:px-4 max-sm:py-3 overflow-hidden border-4 border-white text-white transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-white before:duration-500 hover:text-black hover:before:h-64 hover:before:-translate-y-32">
               <span className="relative z-10">Show less...</span>
             </button>
           )}
