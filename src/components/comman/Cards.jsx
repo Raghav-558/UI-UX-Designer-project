@@ -17,6 +17,30 @@ const Cards = () => {
       img: Image3,
       title: "IOS UI/UX Design",
     },
+    {
+      img: Image1,
+      title: "Sheepify States",
+    },
+    {
+      img: Image2,
+      title: "Interiors Design",
+    },
+    {
+      img: Image3,
+      title: "IOS UI/UX Design",
+    },
+    {
+      img: Image1,
+      title: "Sheepify States",
+    },
+    {
+      img: Image2,
+      title: "Interiors Design",
+    },
+    {
+      img: Image3,
+      title: "IOS UI/UX Design",
+    },
   ];
   return (
     <div className=' bg-black'>
