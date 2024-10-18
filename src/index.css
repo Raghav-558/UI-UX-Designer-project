@@ -9,14 +9,6 @@ body {
     scroll-behavior: smooth;
 }
 
-.eczar {
-    font-family: "Eczar", serif;
-}
-
-.worksans {
-    font-family: "Work Sans", sans-serif;
-}
-
 input::placeholder {
     color: black;
 }

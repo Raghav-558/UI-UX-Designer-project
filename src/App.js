@@ -4,7 +4,6 @@ import Form from './components/comman/Form';
 import Herosection from './components/comman/Herosection';
 import Alittlebit from './components/comman/Alittlebit';
 
-
 function App() {
   return (
     <>
