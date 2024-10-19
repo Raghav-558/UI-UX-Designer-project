@@ -6,6 +6,8 @@ import Alittlebit from "./components/comman/Alittlebit";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   useEffect(() => {
@@ -16,6 +18,7 @@ function App() {
   return (
     <>
       <div>
+        <ToastContainer />
         <Herosection />
         <Cards />
         <Form />
