@@ -1,6 +1,8 @@
 import React, { useState ,useEffect } from 'react';
 import Heroimage from '../assets/images/chiranjit-img.webp'
 import Closeimg from '../assets/images/close-img.webp'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Herosection = () => {
  
@@ -21,7 +23,14 @@ const Herosection = () => {
         };
     }, [isOpen]);
 
-    
+    useEffect(() => {
+        AOS.init({
+            duration: 1200,
+            once:true,
+        });
+    }, []);
+
+
     return (
         <div className='flex items-center flex-col'>
             <div className='border-b border-black border-opacity-15 w-full'>
@@ -105,15 +114,15 @@ const Herosection = () => {
                 <div className='flex flex-wrap flex-row -mx-3 justify-between items-center'>
                     <div className='w-full lg:w-6/12 px-3'>
                         <div>
-                            <div className='w-[179px] h-[60px] max-sm:w-[150px] max-sm:h-[45px] bg-black text-white rounded-md text-2xl font-worksans max-md:text-xl max-sm:text-base flex items-center justify-center pr-2'>
+                            <div data-aos="fade-right" data-aos-delay="" className='w-[179px] h-[60px] max-sm:w-[150px] max-sm:h-[45px] bg-black text-white rounded-md text-2xl font-worksans max-md:text-xl max-sm:text-base flex items-center justify-center pr-2'>
                                 <h2>👋 Hello All</h2>
                             </div>
-                            <h2 className='text-[50px] text-customBlack font-semibold font-eczar pt-6 leading-[75px] max-lg:text-fs-3xl max-md:text-5xl max-sm:text-fs-2xl max-lg:leading-[55px]'>
+                            <h2 data-aos="fade-right" data-aos-delay="200" className='text-[50px] text-customBlack font-semibold font-eczar pt-6 leading-[75px] max-lg:text-fs-3xl max-md:text-5xl max-sm:text-fs-2xl max-lg:leading-[55px]'>
                                 I’m Chiranjit H,
                                 A UI/UX Designer
                                 and Developer
                             </h2>
-                            <div className='flex mt-7 max-sm:mt-5 items-center gap-4 worksans '>
+                            <div data-aos="fade-right" data-aos-delay="300" className='flex mt-7 max-sm:mt-5 items-center gap-4 worksans '>
                                 <button className="max-[400px]:text-[14px] max-[400px]:px-4 max-[400px]:py-2 group max-sm:text-base font-worksans font-semibold text-xl rounded-md relative py-4 px-6 max-sm:px-2 max-sm:py-3 overflow-hidden border-4 border-black text-white bg-black transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-white before:duration-500 hover:text-black hover:before:h-64 hover:before:-translate-y-32">
                                     <span className="relative z-10 flex items-center gap-3">View My Work
                                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -127,7 +136,7 @@ const Herosection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='w-full lg:w-6/12 px-3 max-lg:mt-10'>
+                    <div data-aos="fade-left" className='w-full lg:w-6/12 px-3 max-lg:mt-10'>
                         <div>
                             <img src={Heroimage} alt="hero-image" className='rounded-[30px] w-full' />
                         </div>

@@ -75,9 +75,9 @@ const Cards = () => {
           {CARDS.slice(0, show).map((obj, index) => (
             <div key={index} className='w-full md:w-1/2 lg:w-1/3 px-3'>
               <a href="#">
-                <div data-aos="flip-up" className='bg-white rounded-md p-2.5 mb-6 group/card'>
+                <div data-aos="zoom-in" className='bg-white rounded-md p-2.5 mb-6 group/card'>
                   <div className='overflow-hidden rounded-md'>
-                    <img src={obj.img} alt={obj.title} className='transition-all duration-300 group-hover/card:scale-[1.02] w-full' />
+                    <img src={obj.img} alt={obj.title} className='transition-all duration-300 group-hover/card:scale-[1.02] w-full h-[300px] object-cover' />
                   </div>
                   <div className='p-3'>
                     <h3 className='font-worksans font-semibold text-2xl max-sm:text-xl'>{obj.title}</h3>
@@ -90,11 +90,11 @@ const Cards = () => {
         </div>
         <div data-aos="zoom-in" className='flex justify-center items-center gap-3'>
           <button onClick={addCards} className="font-worksans font-semibold text-xl max-sm:text-base rounded-md before:ease relative py-3 px-7 max-sm:px-4 max-sm:py-3 overflow-hidden border-4 border-white text-white transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-white before:duration-500 hover:text-black hover:before:h-64 hover:before:-translate-y-32">
-            <span className="relative z-10">Show more...</span>
+            <span className="relative z-10">Show More...</span>
           </button>
           {show > 3 && (
             <button onClick={lessCards} className="font-worksans font-semibold text-xl max-sm:text-base rounded-md before:ease relative py-3 px-7 max-sm:px-4 max-sm:py-3 overflow-hidden border-4 border-white text-white transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-white before:duration-500 hover:text-black hover:before:h-64 hover:before:-translate-y-32">
-              <span className="relative z-10">Show less...</span>
+              <span className="relative z-10">Show Less...</span>
             </button>
           )}
         </div>
